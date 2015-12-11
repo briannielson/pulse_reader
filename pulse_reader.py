@@ -11,6 +11,9 @@ if rev == 2 or rev == 3:
 else:
 	b = SMBus(0)
 
+GPR_I2C_DEV_ID = 0x50
+
+
 # test to see if this is always I2C-1
 address = 0x50
 
@@ -26,4 +29,4 @@ while True:
 	# print the pulse otherwise
 	print(pulse)
 	# wait a second
-	sleep(1)
+	sleep(2)
