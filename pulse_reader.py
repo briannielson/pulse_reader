@@ -28,5 +28,5 @@ while True:
 		print("there was an IO Error")
 	# print the pulse otherwise
 	print(pulse)
-	# wait a second
+	# wait two seconds
 	sleep(2)
